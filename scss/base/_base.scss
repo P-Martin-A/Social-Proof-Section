@@ -1,0 +1,17 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html{
+    font-size: 10px;
+
+    body{
+        text-align: center;
+        background-color: $white;
+        font-family: $font;
+        @include size(100%, 100vh);
+    }
+}
